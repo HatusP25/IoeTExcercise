@@ -1,11 +1,7 @@
 from Employee import Employee
-from EmployeeHandler import EmployeeHandler
+from utilFunctions import meetingEmployees
 
-ListEmployees = []
-with open("data.txt", mode="r") as data:
-    ListEmployees.extend(
-        list((map(lambda line: Employee(line.split("=")[0], line.split("=")[1].strip()), data.readlines())))
-    )
-
-handler = EmployeeHandler(ListEmployees)
-handler.showMeetingEmployees()
+if __name__ == "__main__":
+    # emp = Employee("RENE", "MO10:00-12:00,TU10:00-12:00,TH01:00-03:00,SA14:00-18:00,SU20:00- 21:00")
+    # emp2 = Employee("ASTRID", "MO10:00-12:00:TH12:00-14:00,SU20:00-21:00")
+    meetingEmployees("data.txt")
