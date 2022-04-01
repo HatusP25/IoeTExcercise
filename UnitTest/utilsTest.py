@@ -1,7 +1,6 @@
 import unittest
 import utilFunctions
 
-
 class utilsTest(unittest.TestCase):
 
     def test_meetingEmployees(self):
