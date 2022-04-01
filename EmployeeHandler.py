@@ -10,7 +10,8 @@ class EmployeeHandler:
                 for i in range(len(self.listEmployees)):
                     for j in range(i + 1, len(self.listEmployees)):
                         f.write(f'{self.listEmployees[i].compare(self.listEmployees[j])}\n')
-
+            output = "\\".join(__file__.split('\\')[:-1])+"\\result.txt"
+            print(f'Result file found at: {output}')
             return "result.txt"
         except ValueError:
             raise
