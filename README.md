@@ -1,9 +1,9 @@
 # ACME SCHEDULE EXERCISE
-##**Problem:**
+## **Problem:**
 The following problem consists in determining how many times have a pair of employees coincided at the office on a 
 certain day, given a .txt file which contains the schedules of all employees.
 
-##Proposed solution:
+## Proposed solution:
 The proposed solution utilizes an Object-Oriented approach, which uses primarily the `Employee` class, which contains
 most of the logic surrounding the problem. This class, is created by passing two parameters to the constructor `Name` and `Schedule`,
 data which is previously parsed from the input file. Then, the class internally utilizes the `makeSchedule()` method to organize the data 
@@ -20,7 +20,7 @@ to the next employee's schedule, and write each result to the output file `resul
 to make the code scalable, and SOLID compliant.
 
 
-##**Requirements to run the program:**
+## **Requirements to run the program:**
 * You must have installed python 3.5 or greater.
 * Clone the project from [GitHub](https://github.com/HatusP25/IoeTExcercise.git)
 * Open a terminal at the folder where the project is located
@@ -30,6 +30,6 @@ to make the code scalable, and SOLID compliant.
  path of the file you wish to use.**
 
 
-##Output:
+## Output:
 The output with the results will be found in the same directory as the main program
 in a file named "results.txt"
