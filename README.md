@@ -32,4 +32,4 @@ to make the code scalable, and SOLID compliant.
 
 ## Output:
 The output with the results will be found in the same directory as the main program
-in a file named "results.txt"
+in a file named "result.txt"
